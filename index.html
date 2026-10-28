@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vanumu Sai Teja – Full Stack .NET Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600&family=Syne:wght@500;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body class="lock">
+
+<div class="pre" id="pre"><b>Sai Teja</b><i id="cnt">0</i></div>
+<div class="cur" id="cur"></div>
+<div class="grain"></div>
+<div class="prog" id="prog"></div>
+<canvas id="gl" aria-hidden="true"></canvas>
+
+<nav>
+  <a href="#top" data-mag>Sai Teja</a>
+  <div><a href="#about" data-mag>About</a><a href="#work" data-mag>Work</a><a href="#projects" data-mag>Projects</a><a href="#contact" data-mag>Contact</a><button class="tg" id="tg" aria-label="Switch colour theme" data-mag>Theme</button></div>
+</nav>
+
+<header class="hero pad" id="top">
+  <h1 aria-label="Vanumu Sai Teja"><span><i>Vanumu</i></span><span><i>Sai Teja</i></span></h1>
+  <div class="hero-meta">
+    <p>Full stack .NET developer. I build backends that stay fast under load and Angular interfaces that feel obvious.</p>
+    <small>Hyderabad, India<br>Open to new roles</small>
+  </div>
+</header>
+
+<div class="marquee" aria-hidden="true"><div class="track" id="track">
+  <span>C#</span><span>.NET 8</span><span>ASP.NET Core</span><span>Angular</span><span>Azure</span><span>Kubernetes</span><span>Kafka</span><span>Oracle</span><span>SQL Server</span><span>OpenAI</span>
+</div></div>
+
+<section class="about pad" id="about">
+  <p class="statement" id="statement">I design and ship the quiet parts of software: APIs that answer in milliseconds, queries that stay fast at ten million rows, and screens that need no manual.</p>
+  <p class="about-p">Two years of building C# services for financial platforms, mostly on ASP.NET Core, Entity Framework Core, SQL Server and Oracle. I care about clean architecture, honest test coverage and production that doesn’t page anyone at night.</p>
+  <p class="about-p">I also build with the OpenAI API, hold the Azure Developer Associate (AZ-204) certification, and have solved 200+ data structures problems on LeetCode.</p>
+</section>
+
+<section class="sol pad" id="impact">
+  <h2>Results</h2>
+  <div class="stats">
+    <div><b class="n" data-to="99.9" data-dec="1" data-suf="%">0</b><p>uptime across a microservice system, with zero SLA breaches</p></div>
+    <div><b class="n" data-to="35" data-dec="0" data-suf="%">0</b><p>faster stored procedures over 10M+ records</p></div>
+    <div><b class="n" data-to="45" data-dec="0" data-suf="%">0</b><p>faster feature delivery using CQRS and sprint planning</p></div>
+    <div><b class="n" data-to="50" data-dec="0" data-suf="%">0</b><p>fewer defects quarter over quarter after TDD and BDD</p></div>
+  </div>
+</section>
+
+<section class="sol pad" id="work">
+  <h2>Experience</h2>
+  <article class="row" data-open>
+    <button class="row-h" aria-expanded="true"><span class="row-t">Software Development Engineer I, Backend &amp; Distributed Systems</span><span class="row-d">Aug 2025 – Apr 2026</span></button>
+    <div class="row-b"><div><ul>
+      <li>Built ASP.NET Core Web API services in a horizontally scaled microservice system with 99.9% uptime and zero SLA breaches.</li>
+      <li>Tuned SQL and Oracle PL/SQL stored procedures over 10M+ record datasets, cutting execution time by 35%.</li>
+      <li>Maintained CI/CD on Azure (Git, Jenkins, Docker, Kubernetes) and monitored services in Splunk and Grafana.</li>
+      <li>Connected an Angular reporting workflow to an OpenAI pipeline, cutting report preparation time by 30%.</li>
+      <li>Held SOLID and DRY standards through SonarQube quality gates and peer review.</li>
+    </ul></div></div>
+  </article>
+  <article class="row">
+    <button class="row-h" aria-expanded="false"><span class="row-t">Software Development Engineer, C#/.NET Backend &amp; Web</span><span class="row-d">Jul 2024 – Aug 2025</span></button>
+    <div class="row-b"><div><ul>
+      <li>Shipped REST APIs with Entity Framework Core for a high-traffic financial platform: API response time down 25%, page load down 30%.</li>
+      <li>Designed CQRS solutions with PL/SQL stored procedures across three product lines and delivered features 45% faster.</li>
+      <li>Raised coverage to 85% with NUnit, xUnit, Selenium and Cucumber, cutting defects 50% quarter over quarter.</li>
+      <li>Mentored junior engineers on testing and coding standards.</li>
+    </ul></div></div>
+  </article>
+  <article class="row">
+    <button class="row-h" aria-expanded="false"><span class="row-t">Software Engineer Intern, C#/.NET Backend</span><span class="row-d">Jan 2024 – Jun 2024</span></button>
+    <div class="row-b"><div><ul>
+      <li>Delivered three REST API modules with zero rework cycles and a 20% drop in SQL query latency.</li>
+      <li>Wrote NUnit tests with 80%+ coverage inside an Agile, Jenkins-based workflow.</li>
+    </ul></div></div>
+  </article>
+</section>
+
+<section class="sol pad" id="projects">
+  <h2>Projects</h2>
+  <div class="projs">
+    <div class="proj" data-tilt>
+      <div><div><h3>VOYA AI</h3><p class="st">Angular, TypeScript, ASP.NET Core Web API, PostgreSQL, Redis</p></div>
+      <p>An intelligent travel orchestration platform. A real-time, event-driven engine with Redis caching on clean architecture and microservices, reducing boarding-risk scenarios by an estimated 40%.</p></div>
+      <div class="art a"></div>
+    </div>
+    <div class="proj" data-tilt>
+      <div><div><h3>LifeLens AI</h3><p class="st">Angular, TypeScript, ASP.NET Core Web API, PostgreSQL, OpenAI API</p></div>
+      <p>A financial intelligence platform. Its analytics engine uses the OpenAI API to turn transactions into behavioral insights and predictions, cutting manual analysis by 30%.</p></div>
+      <div class="art b"></div>
+    </div>
+  </div>
+</section>
+
+<section class="sol pad" id="craft">
+  <h2>How I write</h2>
+  <div class="split">
+    <div><p class="k2">Reads stay lean and writes stay explicit.</p><p class="mut">A small CQRS query in the style I use daily: no change tracking, projection in the database, paging on the server. An illustrative example, not production code.</p></div>
+    <div class="win"><div class="bar"><span class="dots"></span></div><pre id="code" aria-label="C# query handler example"></pre></div>
+  </div>
+</section>
+
+<section class="sol pad" id="stack">
+  <h2>Toolbox</h2>
+  <div class="tools">
+    <div><h3>Backend</h3><p>C#, .NET 6/7/8, ASP.NET Core Web API, REST, SOAP, SOLID, CQRS, microservices, Kafka</p></div>
+    <div><h3>Data</h3><p>Entity Framework Core, ADO.NET, LINQ, SQL Server, Oracle PL/SQL, PostgreSQL, MongoDB, Redis, Cassandra</p></div>
+    <div><h3>Frontend</h3><p>Angular, TypeScript, HTML, single page applications, REST integration</p></div>
+    <div><h3>Cloud and delivery</h3><p>Azure, Git, Jenkins, Docker, Kubernetes, CI/CD, Splunk, Grafana, Prometheus</p></div>
+    <div><h3>Security</h3><p>OAuth2, JWT, secure coding, vulnerability remediation</p></div>
+    <div><h3>AI</h3><p>OpenAI API, LLM integration, prompt engineering, AI workflow automation</p></div>
+  </div>
+  <ul class="edu">
+    <li><span><b>B.Tech, Computer Science &amp; Engineering</b> – S.R.K Institute of Technology, Vijayawada</span><span>2020–2024, CGPA 8.5</span></li>
+    <li><span><b>Microsoft Certified: Azure Developer Associate</b> (AZ-204)</span><span>Meta Front-End Developer, Coursera</span></li>
+    <li><span><b>IEEE publication:</b> Deep Learning in Traffic Management</span><span>LeetCode top 5%</span></li>
+  </ul>
+</section>
+
+<footer class="contact pad" id="contact">
+  <p class="k">Have a role or a project in mind? Write to me.</p>
+  <a class="mail" href="mailto:saitejavanumu0@gmail.com" data-mag>saitejavanumu0@gmail.com</a>
+  <div class="links"><a href="tel:+919908242682">+91 99082 42682</a><a href="#" rel="noopener">LinkedIn</a><a href="#" rel="noopener">Portfolio</a></div>
+  <div class="foot"><span>© 2026 Vanumu Sai Teja</span><span id="clock">Hyderabad</span></div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
